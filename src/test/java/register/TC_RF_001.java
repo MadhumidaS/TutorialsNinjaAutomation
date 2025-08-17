@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import utils.CommonUtilities;
+
 public class TC_RF_001 {
 
 	@Test
@@ -28,7 +30,7 @@ public class TC_RF_001 {
 		
 		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Madhumida");
 		driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("S");
-		driver.findElement(By.xpath("//input[@name='email']")).sendKeys(generateBrandNewEmail());
+		driver.findElement(By.xpath("//input[@name='email']")).sendKeys(CommonUtilities.generateBrandNewEmail());
 		driver.findElement(By.xpath("//input[@name='telephone']")).sendKeys("9590020704");
 		
 		// To Enter Password
@@ -62,18 +64,6 @@ public class TC_RF_001 {
 		
 		
 		driver.quit();
-	}
-	
-	public String generateBrandNewEmail() {
-		
-		Date date = new Date();
-		String dateString = date.toString();
-		String dateStringWithoutSpaces = dateString.replaceAll("\\s","");
-		String dateStringWithoutSpacesAndColons = dateStringWithoutSpaces.replaceAll("\\:","");
-		String brandNewEmail = dateStringWithoutSpacesAndColons+"@gmail.com";
-		//return dateStringWithoutSpaces;
-		return brandNewEmail;
-		
 	}
 
 }
