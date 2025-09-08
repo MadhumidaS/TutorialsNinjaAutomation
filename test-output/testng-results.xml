@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-04T20:30:30 IST" name="Default suite" finished-at="2025-09-04T20:30:37 IST" duration-ms="7225">
+  <suite started-at="2025-09-08T07:41:43 IST" name="Default suite" finished-at="2025-09-08T07:41:47 IST" duration-ms="4166">
     <groups>
     </groups>
-    <test started-at="2025-09-04T20:30:30 IST" name="Default test" finished-at="2025-09-04T20:30:37 IST" duration-ms="7225">
-      <class name="register.TC_RF_005">
-        <test-method signature="verifyRegisteringAccountBySubscribingToNewsletter()[pri:0, instance:register.TC_RF_005@537f60bf]" started-at="2025-09-04T20:30:30 IST" name="verifyRegisteringAccountBySubscribingToNewsletter" finished-at="2025-09-04T20:30:37 IST" duration-ms="7192" status="PASS">
+    <test started-at="2025-09-08T07:41:43 IST" name="Default test" finished-at="2025-09-08T07:41:47 IST" duration-ms="4166">
+      <class name="register.TC_RF_009">
+        <test-method signature="verifyRegisteringAccountByProvidingExistingAccountDetails()[pri:0, instance:register.TC_RF_009@537f60bf]" started-at="2025-09-08T07:41:43 IST" name="verifyRegisteringAccountByProvidingExistingAccountDetails" finished-at="2025-09-08T07:41:47 IST" duration-ms="4111" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountBySubscribingToNewsletter -->
-      </class> <!-- register.TC_RF_005 -->
+        </test-method> <!-- verifyRegisteringAccountByProvidingExistingAccountDetails -->
+      </class> <!-- register.TC_RF_009 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
